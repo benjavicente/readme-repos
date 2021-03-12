@@ -21,7 +21,7 @@ REPO_PAYLOAD = R"""
           url
           updatedAt
           stargazerCount
-          languages(first: 1) {
+          languages(first: 1, orderBy: {field: SIZE, direction: DESC}) {
             edges {
               node {
                 name
