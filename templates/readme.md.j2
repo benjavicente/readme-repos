@@ -1,0 +1,5 @@
+# SVG Repo Cards
+
+{% for repo in repos -%}
+[![]({{ repo.card_path }} )]({{ repo.url }})
+{% endfor %}

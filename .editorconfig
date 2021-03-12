@@ -1,0 +1,17 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_style = space
+
+[*.md,*.md.j2]
+indent_size = 2
+
+[*.svg,*.svg.j2]
+indent_size = 1
+
+[*.py]
+indent_size = 4

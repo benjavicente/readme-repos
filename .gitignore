@@ -1,0 +1,8 @@
+.venv
+.env
+*.lock
+.vscode/
+.*cache/
+other/
+__pycache__/
+out
